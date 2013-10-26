@@ -1,0 +1,16 @@
+PATH
+  remote: .
+  specs:
+    minecraft-foreman-syslog-adapter (0.0.1)
+      SyslogLogger (~> 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    SyslogLogger (2.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  minecraft-foreman-syslog-adapter!
