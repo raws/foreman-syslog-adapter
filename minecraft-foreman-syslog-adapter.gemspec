@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name = 'minecraft-foreman-syslog-adapter'
-  gem.version = '0.0.1'
+  gem.version = '0.0.2'
 
   gem.summary = 'Foreman syslog adapter'
   gem.description = 'syslog adapter for Foreman, a Minecraft server wrapper'
