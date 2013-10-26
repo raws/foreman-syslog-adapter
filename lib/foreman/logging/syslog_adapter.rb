@@ -1,10 +1,10 @@
-require 'syslog_logger'
+require 'syslog/logger'
 
 module Foreman
   module Logging
     class SyslogAdapter
       def initialize(app_name)
-        @logger = SyslogLogger.new(app_name)
+        @logger = Syslog::Logger.new(app_name)
       end
 
       def log(level, uuid, time, message, options)
