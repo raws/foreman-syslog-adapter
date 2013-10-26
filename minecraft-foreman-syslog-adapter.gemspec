@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.authors = ['Ross Paffett']
   gem.email = ['ross@rosspaffett.com']
 
-  gem.files = ['lib/foreman/logging/syslog_adapter.rb']
+  gem.files = Dir['lib/**/*.rb']
 
   gem.add_runtime_dependency 'SyslogLogger', '~> 2.0'
 end
